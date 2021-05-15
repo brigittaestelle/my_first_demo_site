@@ -1,0 +1,171 @@
+body {
+    font-family: "Bungee";
+}
+
+header {
+    color: #7944e6;
+}
+
+.inline-p{
+    display: inline;
+    float: right;
+    padding-left:10px;
+    padding-right: 10px; 
+}
+
+.pink-section {
+    background-color: #ff00ff;
+    display: inline-block;
+    color: black;
+    font-size: smaller;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.truck {
+    display: inline;
+    background-color: #ff00ff;
+    float: center;
+    height: 200px;
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+}
+
+.words {
+    display: inline;
+    background-color: #ff00ff;
+    float: left;
+    height: 50%;
+    width: 80%;
+    padding-left: 12%;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.ccc {
+    max-width: 5%;
+    
+}
+
+.item {
+    display: block;
+    background-color: white;
+    width: 70%;
+    text-align: center;
+    margin: 1%;
+    padding-left:10px;
+    padding-right: 10px; 
+    border: solid 3px #7944e6;
+}
+
+.menu-container {
+display: block;
+flex-direction: column;
+border-bottom: 1px #7944e6
+}
+
+.menu-image {
+    width: 40%;
+}
+
+.container{
+    background-image: url("coffee.svg");
+}
+
+.menu-link {
+    text-decoration: none;
+}
+    
+.menu-link:hover {
+    color:brown;
+}
+
+@media screen and (min-width: 768px) {
+
+    body {
+        font-family: "Bungee";
+    }
+    
+    header {
+        color: #7944e6;
+    }
+    
+    .inline-p{
+        display: inline;
+        float: right;
+        padding-left:10px;
+        padding-right: 10px; 
+    }
+    
+    .pink-section {
+        display: inline-flex;
+        background-color: #ff00ff;
+        color: black;
+        font-size: smaller;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    
+    .truck {
+        background-color: #ff00ff;
+        float: left;
+        height: 200px;
+        width: 50%;
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+    
+    .words {
+        background-color: #ff00ff;
+        float: right;
+        font-size: smaller;
+        height: 10px;
+        width: 50%;
+        padding-top: 2px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .ccc {
+        max-width: 5%;
+        
+    }
+    
+    .item {
+        display: inline-block;
+        background-color: white;
+        width: 30%;
+        text-align: center;
+        margin: 1%;
+        padding-left:10px;
+        padding-right: 10px; 
+        border: solid 3px #7944e6;
+    }
+    
+    .menu-container {
+    display: inline-flex;
+    flex-direction: row;
+    border-bottom: 1px #7944e6
+    }
+    
+    .menu-image {
+        width: 40%;
+    }
+    
+    .container{
+        background-image: url("coffee.svg");
+    }
+    
+    .menu-link {
+        text-decoration: none;
+    }
+        
+    .menu-link:hover {
+        color:brown;
+    }
+
+    
+}
